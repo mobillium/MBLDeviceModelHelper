@@ -20,7 +20,7 @@ pod 'MBLDeviceModelHelper'
 ## Usage
 
 
-Create your keys:
+Get device name:
 ```swift
 import MBLDeviceModelHelper
 
