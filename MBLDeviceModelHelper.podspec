@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name             = 'MBLDeviceModelHelper'
-    spec.version          = '1.0.0'
+    spec.version          = '1.0.1'
     spec.summary          = 'Device Model Name helper for iOS apps.'
     
     spec.homepage         = 'https://github.com/mobillium/MBLDeviceModelHelper'
