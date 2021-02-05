@@ -1,17 +1,16 @@
 Pod::Spec.new do |spec|
-    s.name             = 'MBLDeviceModelHelper'
-    s.version          = '1.0.0'
-    s.summary          = 'Device Model Name helper for iOS apps.'
+    spec.name             = 'MBLDeviceModelHelper'
+    spec.version          = '1.0.0'
+    spec.summary          = 'Device Model Name helper for iOS apps.'
     
-    s.homepage         = 'https://github.com/alihanaktay/MBLDeviceModelHelper'
-    s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'alihanaktay' => 'alihanaktay@gmail.com' }
-    s.source           = { :git => 'https://github.com/alihanaktay/MBLDeviceModelHelper.git', :tag => s.version.to_s }
-    s.social_media_url = 'https://twitter.com/mobillium'
+    spec.homepage         = 'https://github.com/alihanaktay/MBLDeviceModelHelper'
+    spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+    spec.author           = { 'alihanaktay' => 'alihanaktay@gmail.com' }
+    spec.source           = { :git => 'https://github.com/alihanaktay/MBLDeviceModelHelper.git', :tag => spec.version.to_s }
     
-    s.ios.deployment_target = '9.0'
-    s.swift_version = '5.0'
+    spec.ios.deployment_target = '9.0'
+    spec.swift_version = '5.0'
     
-    s.source_files = 'MBLDeviceModelHelper/Classes/**/*'
+    spec.source_files = 'MBLDeviceModelHelper/Classes/**/*'
 
 end
