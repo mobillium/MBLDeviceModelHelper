@@ -97,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB61EA62271B105100E14099 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB61EA5E271B0ADF00E14099 /* DeviceModelList.swift */,
+				FB61EA5F271B0ADF00E14099 /* UIDevice+Extension.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		FBD18E5125CD696B0070AEB2 = {
 			isa = PBXGroup;
 			children = (
@@ -121,9 +130,8 @@
 		FBD18E5D25CD696B0070AEB2 /* MBLDeviceModelHelper */ = {
 			isa = PBXGroup;
 			children = (
+				FB61EA62271B105100E14099 /* Classes */,
 				FBD18E5E25CD696B0070AEB2 /* MBLDeviceModelHelper.h */,
-				FB61EA5E271B0ADF00E14099 /* DeviceModelList.swift */,
-				FB61EA5F271B0ADF00E14099 /* UIDevice+Extension.swift */,
 				FBD18E5F25CD696B0070AEB2 /* Info.plist */,
 			);
 			path = MBLDeviceModelHelper;
