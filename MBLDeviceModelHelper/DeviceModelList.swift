@@ -41,7 +41,11 @@ public enum DeviceModelList: String {
     case iPhone12                 =     "iPhone 12"
     case iPhone12Pro              =     "iPhone 12 Pro"
     case iPhone12ProMax           =     "iPhone 12 Pro Max"
-   
+    case iPhone13Mini             =     "iPhone 13 Mini"
+    case iPhone13                 =     "iPhone 13"
+    case iPhone13Pro              =     "iPhone 13 Pro"
+    case iPhone13ProMax           =     "iPhone 13 Pro Max"
+
     //MARK: - iPod
     case iPod1                    =     "1st Gen iPod"
     case iPod2                    =     "2nd Gen iPod"
@@ -56,27 +60,41 @@ public enum DeviceModelList: String {
     case iPad3G                   =     "iPad 3G"
     case iPad2                    =     "2nd Gen iPad"
     case iPad3                    =     "3rd Gen iPad"
-    case iPadMini                 =     "iPad mini"
     case iPad4                    =     "4th Gen iPad"
-    case iPadAir                  =     "iPad Air"
-    case iPadMiniRetina           =     "iPad mini Retina"
-    case iPadMini3                =     "iPad mini 3"
-    case iPadMini4                =     "iPad mini 4 (WiFi)"
-    case iPadMini4Cell            =     "4th Gen iPad mini (WiFi+Cellular)"
-    case iPadAir2                 =     "iPad Air 2 (WiFi)"
-    case iPadAir2Cell             =     "iPad Air 2 (Cellular)"
-    case iPadPro97                =     "iPad Pro (9.7 inch, WiFi)"
-    case iPadPro97Cell            =     "iPad Pro (9.7 inch, WiFi+LTE)"
-    case iPadPro129               =     "iPad Pro (12.9 inch, WiFi)"
-    case iPadPro129Cell           =     "iPad Pro (12.9 inch, WiFi+LTE)"
     case iPad2017                 =     "iPad (2017)"
-    case iPadPro2Gen              =     "iPad Pro 2nd Gen (WiFi)"
-    case iPadPro2GenCell          =     "iPad Pro 2nd Gen (WiFi+Cellular)"
-    case iPadPro105               =     "iPad Pro 10.5-inch"
     case iPad6                    =     "iPad 6th Gen (WiFi)"
     case iPad6Cell                =     "iPad 6th Gen (WiFi+Cellular)"
     case iPad7                    =     "iPad 7th Gen 10.2-inch (WiFi)"
     case iPad7Cell                =     "iPad 7th Gen 10.2-inch (WiFi+Cellular)"
+    case iPadGen8                 =     "iPad 8th Gen (WiFi)"
+    case iPadGen8Cell             =     "iPad 8th Gen (WiFi+Cellular)"
+
+    //MARK: - iPad Mini
+    case iPadMini                 =     "iPad mini"
+    case iPadMiniRetina           =     "iPad mini Retina"
+    case iPadMini3                =     "iPad mini 3"
+    case iPadMini4                =     "iPad mini 4 (WiFi)"
+    case iPadMini4Cell            =     "4th Gen iPad mini (WiFi+Cellular)"
+    case iPadMiniGen5             =     "iPad mini 5th Gen"
+    case iPadAirGen3              =     "iPad Air 3rd Gen"
+    case iPadMiniGen6             =     "iPad mini 6th Gen (WiFi)"
+    case iPadMiniGen6Cell         =     "iPad mini 6th Gen (WiFi+Cellular)"
+
+    //MARK: - iPad Air
+    case iPadAir                  =     "iPad Air"
+    case iPadAir2                 =     "iPad Air 2 (WiFi)"
+    case iPadAir2Cell             =     "iPad Air 2 (Cellular)"
+    case iPadAirGen4              =     "iPad air 4th Gen (WiFi)"
+    case iPadAirGen4Cell          =     "iPad air 4th Gen (WiFi+Cellular)"
+
+    //MARK: - iPad Pro
+    case iPadPro97                =     "iPad Pro (9.7 inch, WiFi)"
+    case iPadPro97Cell            =     "iPad Pro (9.7 inch, WiFi+LTE)"
+    case iPadPro129               =     "iPad Pro (12.9 inch, WiFi)"
+    case iPadPro129Cell           =     "iPad Pro (12.9 inch, WiFi+LTE)"
+    case iPadPro2Gen              =     "iPad Pro 2nd Gen (WiFi)"
+    case iPadPro2GenCell          =     "iPad Pro 2nd Gen (WiFi+Cellular)"
+    case iPadPro105               =     "iPad Pro 10.5-inch"
     case iPadPro11                =     "iPad Pro 11 inch 3rd Gen (WiFi)"
     case iPadPro11Cell            =     "iPad Pro 11 inch 3rd Gen (WiFi+Cellular)"
     case iPadPro129Gen3           =     "iPad Pro 12.9 inch 3rd Gen (WiFi)"
@@ -85,13 +103,9 @@ public enum DeviceModelList: String {
     case iPadPro11Gen4Cell        =     "iPad Pro 11 inch 4th Gen (WiFi+Cellular)"
     case iPadPro129Gen4           =     "iPad Pro 12.9 inch 4th Gen (WiFi)"
     case iPadPro129Gen4Cell       =     "iPad Pro 12.9 inch 4th Gen (WiFi+Cellular)"
-    case iPadMiniGen5             =     "iPad mini 5th Gen"
-    case iPadAirGen3              =     "iPad Air 3rd Gen"
-    case iPadGen8                 =     "iPad 8th Gen (WiFi)"
-    case iPadGen8Cell             =     "iPad 8th Gen (WiFi+Cellular)"
-    case iPadAirGen4              =     "iPad air 4th Gen (WiFi)"
-    case iPadAirGen4Cell          =     "iPad air 4th Gen (WiFi+Cellular)"
-    
+    case iPadPro11Gen5            =     "iPad Pro 11 inch 5th Gen"
+    case iPadPro129Gen5           =     "iPad Pro 12.9 inch inch 5th Gen"
+
     // MARK: - WATCH
     case watch38                  =     "Apple Watch 38mm case"
     case watch42                  =     "Apple Watch 42mm case"
@@ -119,6 +133,11 @@ public enum DeviceModelList: String {
     case watch644                 =     "Apple Watch Series 6 44mm case (GPS)"
     case watch640Cell             =     "Apple Watch Series 6 40mm case (GPS+Cellular)"
     case watch644Cell             =     "Apple Watch Series 6 44mm case (GPS+Cellular)"
+    case watch741                 =     "Apple Watch Series 7 41mm case (GPS)"
+    case watch745                 =     "Apple Watch Series 7 45mm case (GPS)"
+    case watch741Cell             =     "Apple Watch Series 7 41mm case (GPS+Cellular)"
+    case watch745Cell             =     "Apple Watch Series 7 45mm case (GPS+Cellular)"
+
     
     case unrecognized             =     "UNRECOGNIZED DEVICE"
 }

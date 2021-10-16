@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB61EA60271B0AE000E14099 /* DeviceModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61EA5E271B0ADF00E14099 /* DeviceModelList.swift */; };
+		FB61EA61271B0AE000E14099 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61EA5F271B0ADF00E14099 /* UIDevice+Extension.swift */; };
 		FBD18E6525CD696B0070AEB2 /* MBLDeviceModelHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD18E5B25CD696B0070AEB2 /* MBLDeviceModelHelper.framework */; };
 		FBD18E6A25CD696B0070AEB2 /* MBLDeviceModelHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD18E6925CD696B0070AEB2 /* MBLDeviceModelHelperTests.swift */; };
 		FBD18E6C25CD696B0070AEB2 /* MBLDeviceModelHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD18E5E25CD696B0070AEB2 /* MBLDeviceModelHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBD18E7825CD697C0070AEB2 /* DeviceModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD18E7725CD697C0070AEB2 /* DeviceModelList.swift */; };
-		FBD18E7C25CD69D20070AEB2 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD18E7B25CD69D20070AEB2 /* UIDevice+Extension.swift */; };
 		FBD18E8825CD91DB0070AEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD18E8725CD91DB0070AEB2 /* AppDelegate.swift */; };
 		FBD18E8C25CD91DB0070AEB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD18E8B25CD91DB0070AEB2 /* ViewController.swift */; };
 		FBD18E8F25CD91DB0070AEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD18E8D25CD91DB0070AEB2 /* Main.storyboard */; };
@@ -53,14 +53,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB61EA5E271B0ADF00E14099 /* DeviceModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModelList.swift; sourceTree = "<group>"; };
+		FB61EA5F271B0ADF00E14099 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		FBD18E5B25CD696B0070AEB2 /* MBLDeviceModelHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBLDeviceModelHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD18E5E25CD696B0070AEB2 /* MBLDeviceModelHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBLDeviceModelHelper.h; sourceTree = "<group>"; };
 		FBD18E5F25CD696B0070AEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD18E6425CD696B0070AEB2 /* MBLDeviceModelHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBLDeviceModelHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD18E6925CD696B0070AEB2 /* MBLDeviceModelHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBLDeviceModelHelperTests.swift; sourceTree = "<group>"; };
 		FBD18E6B25CD696B0070AEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBD18E7725CD697C0070AEB2 /* DeviceModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModelList.swift; sourceTree = "<group>"; };
-		FBD18E7B25CD69D20070AEB2 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		FBD18E8525CD91DB0070AEB2 /* MBLDeviceModelHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBLDeviceModelHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD18E8725CD91DB0070AEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD18E8B25CD91DB0070AEB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,9 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				FBD18E5E25CD696B0070AEB2 /* MBLDeviceModelHelper.h */,
+				FB61EA5E271B0ADF00E14099 /* DeviceModelList.swift */,
+				FB61EA5F271B0ADF00E14099 /* UIDevice+Extension.swift */,
 				FBD18E5F25CD696B0070AEB2 /* Info.plist */,
-				FBD18E7725CD697C0070AEB2 /* DeviceModelList.swift */,
-				FBD18E7B25CD69D20070AEB2 /* UIDevice+Extension.swift */,
 			);
 			path = MBLDeviceModelHelper;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				TargetAttributes = {
 					FBD18E5A25CD696B0070AEB2 = {
 						CreatedOnToolsVersion = 12.4;
-						LastSwiftMigration = 1240;
+						LastSwiftMigration = 1250;
 					};
 					FBD18E6325CD696B0070AEB2 = {
 						CreatedOnToolsVersion = 12.4;
@@ -300,8 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD18E7825CD697C0070AEB2 /* DeviceModelList.swift in Sources */,
-				FBD18E7C25CD69D20070AEB2 /* UIDevice+Extension.swift in Sources */,
+				FB61EA60271B0AE000E14099 /* DeviceModelList.swift in Sources */,
+				FB61EA61271B0AE000E14099 /* UIDevice+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +497,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobillium.MBLDeviceModelHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -526,7 +526,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobillium.MBLDeviceModelHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -577,6 +577,7 @@
 		FBD18E9725CD91DC0070AEB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +599,7 @@
 		FBD18E9825CD91DC0070AEB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
