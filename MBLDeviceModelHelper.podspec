@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     
     spec.homepage         = 'https://github.com/mobillium/MBLDeviceModelHelper'
     spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-    spec.author           = { 'alihanaktay' => 'alihan.aktay@mobillium.com' }
+    spec.author           = { 'alihanaktay' => 'alihanaktay@gmail.com' }
     spec.source           = { :git => 'https://github.com/mobillium/MBLDeviceModelHelper.git', :tag => spec.version.to_s }
     
     spec.ios.deployment_target = '9.0'
