@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target = '9.0'
     spec.swift_version = '5.0'
     
-    spec.source_files = 'MBLDeviceModelHelper/Classes/**/*'
+    spec.source_files = 'Sources/MBLDeviceModelHelper/Classes/**/*'
 
 end
