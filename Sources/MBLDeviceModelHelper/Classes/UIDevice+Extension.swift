@@ -21,6 +21,7 @@ var type: DeviceModelList {
 
         "i386"         :    .simulator,
         "x86_64"       :    .simulator,
+        "arm64"        :    .simulator,
         "iPhone1,1"    :    .iPhone,
         "iPhone1,2"    :    .iPhone3G,
         "iPhone2,1"    :    .iPhone3GS,
