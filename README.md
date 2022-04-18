@@ -1,6 +1,8 @@
 # MBLDeviceModelHelper
 [![Version](https://img.shields.io/cocoapods/v/MBLDeviceModelHelper.svg?style=flat)](https://cocoapods.org/pods/MBLDeviceModelHelper)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+[![License](https://img.shields.io/cocoapods/l/MBLDeviceModelHelper.svg?style=flat)](https://cocoapods.org/pods/MBLDeviceModelHelper)
+[![Platform](https://img.shields.io/cocoapods/p/MBLDeviceModelHelper.svg?style=flat)](https://cocoapods.org/pods/MBLDeviceModelHelper)
 
 ## Example
 
