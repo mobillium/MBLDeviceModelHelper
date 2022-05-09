@@ -45,6 +45,7 @@ public enum DeviceModelList: String {
     case iPhone13                 =     "iPhone 13"
     case iPhone13Pro              =     "iPhone 13 Pro"
     case iPhone13ProMax           =     "iPhone 13 Pro Max"
+    case iPhoneSE3rdGen           =     "iPhone SE 3rd Gen"
 
     //MARK: - iPod
     case iPod1                    =     "1st Gen iPod"

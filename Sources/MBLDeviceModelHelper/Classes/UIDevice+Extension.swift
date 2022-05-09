@@ -65,6 +65,7 @@ var type: DeviceModelList {
         "iPhone14,5"   :    .iPhone13,
         "iPhone14,2"   :    .iPhone13Pro,
         "iPhone14,3"   :    .iPhone13ProMax,
+        "iPhone14,6"   :    .iPhoneSE3rdGen,
                 
         // MARK: - iPad
         "iPad1,1"      :    .iPad,
