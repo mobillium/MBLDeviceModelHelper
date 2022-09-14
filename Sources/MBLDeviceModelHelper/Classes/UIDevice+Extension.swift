@@ -15,7 +15,7 @@ var type: DeviceModelList {
         $0.withMemoryRebound(to: CChar.self, capacity: 1) {
             ptr in String.init(validatingUTF8: ptr)
         }
-    }
+    } ?? ""
 
     let modelMap : [String: DeviceModelList] = [
 
@@ -198,11 +198,11 @@ var type: DeviceModelList {
         "iPod9,1"      :    .iPod7
 
     ]
-
-    if let model = modelMap[String.init(validatingUTF8: modelCode!)!] {
+    
+    if let model = modelMap[String(modelCode)] {
         if model == .simulator {
             if let simModelCode = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] {
-                if let simModel = modelMap[String.init(validatingUTF8: simModelCode)!] {
+                if let simModel = modelMap[String(simModelCode)] {
                     return simModel
                 }
             }
