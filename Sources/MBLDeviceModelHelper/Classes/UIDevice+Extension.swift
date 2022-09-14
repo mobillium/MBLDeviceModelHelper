@@ -65,7 +65,12 @@ var type: DeviceModelList {
         "iPhone14,5"   :    .iPhone13,
         "iPhone14,2"   :    .iPhone13Pro,
         "iPhone14,3"   :    .iPhone13ProMax,
-                
+        "iPhone14,6"   :    .iPhoneSE3Gen,
+        "iPhone14,7"   :    .iPhone14,
+        "iPhone14,8"   :    .iPhone14Plus,
+        "iPhone15,2"   :    .iPhone14Pro,
+        "iPhone15,3"   :    .iPhone14ProMax,
+
         // MARK: - iPad
         "iPad1,1"      :    .iPad,
         "iPad1,2"      :    .iPad3G,
@@ -87,6 +92,8 @@ var type: DeviceModelList {
         "iPad7,12"     :    .iPad7Cell,
         "iPad11,6"     :    .iPadGen8,
         "iPad11,7"     :    .iPadGen8Cell,
+        "iPad12,1"     :    .iPadGen9,
+        "iPad12,2"     :    .iPadGen9Cell,
 
         // MARK: - iPad Air
         "iPad4,1"      :    .iPadAir,
@@ -98,6 +105,8 @@ var type: DeviceModelList {
         "iPad11,4"     :    .iPadAirGen3,
         "iPad13,1"     :    .iPadAirGen4,
         "iPad13,2"     :    .iPadAirGen4Cell,
+        "iPad13,16"    :    .iPadAirGen5,
+        "iPad13,17"    :    .iPadAirGen5Cell,
 
         // MARK: - iPad Mini
         "iPad2,5"      :    .iPadMini,
@@ -124,7 +133,7 @@ var type: DeviceModelList {
         "iPad7,1"      :    .iPadPro2Gen,
         "iPad7,2"      :    .iPadPro2GenCell,
         "iPad7,3"      :    .iPadPro105,
-        "iPad7,4"      :    .iPadPro105,
+        "iPad7,4"      :    .iPadPro105Cell,
         "iPad8,1"      :    .iPadPro11,
         "iPad8,2"      :    .iPadPro11,
         "iPad8,3"      :    .iPadPro11Cell,
@@ -137,14 +146,14 @@ var type: DeviceModelList {
         "iPad8,10"     :    .iPadPro11Gen4Cell,
         "iPad8,11"     :    .iPadPro129Gen4,
         "iPad8,12"     :    .iPadPro129Gen4Cell,
-        "iPad13,4"     :    .iPadPro11Gen5,
-        "iPad13,5"     :    .iPadPro11Gen5,
-        "iPad13,6"     :    .iPadPro11Gen5,
-        "iPad13,7"     :    .iPadPro11Gen5,
+        "iPad13,4"     :    .iPadPro11Gen3,
+        "iPad13,5"     :    .iPadPro11Gen3CellUSA,
+        "iPad13,6"     :    .iPadPro11Gen3CellGlobal,
+        "iPad13,7"     :    .iPadPro11Gen3CellChina,
         "iPad13,8"     :    .iPadPro129Gen5,
-        "iPad13,9"     :    .iPadPro129Gen5,
-        "iPad13,10"    :    .iPadPro129Gen5,
-        "iPad13,11"    :    .iPadPro129Gen5,
+        "iPad13,9"     :    .iPadPro129Gen5CellUSA,
+        "iPad13,10"    :    .iPadPro129Gen5CellGlobal,
+        "iPad13,11"    :    .iPadPro129Gen5CellChina,
 
         // MARK: - Watchs
         "Watch1,1"     :    .watch38,
