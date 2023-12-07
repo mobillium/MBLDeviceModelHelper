@@ -191,6 +191,15 @@ var type: DeviceModelList {
         "Watch6,7"     :    .watch745,
         "Watch6,8"     :    .watch741Cell,
         "Watch6,9"     :    .watch745Cell,
+        "Watch6,10"    :    .watchSE2Gen40,
+        "Watch6,11"    :    .watchSE2Gen44,
+        "Watch6,12"    :    .watchSE2Gen40Cell,
+        "Watch6,13"    :    .watchSE2Gen44Cell,
+        "Watch6,14"    :    .watch840,
+        "Watch6,15"    :    .watch844,
+        "Watch6,16"    :    .watch840Cell,
+        "Watch6,17"    :    .watch844Cell,
+        "Watch6,18"    :    .watchUltra,
 
         // MARK: - iPod
         "iPod1,1"      :    .iPod1,
