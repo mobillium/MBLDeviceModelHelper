@@ -75,6 +75,7 @@ public enum DeviceModelList: String {
     case iPadGen8Cell             =     "iPad 8th Gen (WiFi+Cellular)"
     case iPadGen9                 =     "iPad 9th Gen (WiFi)"
     case iPadGen9Cell             =     "iPad 9th Gen (WiFi+Cellular)"
+    case iPadGen10                =     "iPad 10th Gen"
 
     //MARK: - iPad Mini
     case iPadMini                 =     "iPad mini"
@@ -121,6 +122,7 @@ public enum DeviceModelList: String {
     case iPadPro129Gen5CellUSA    =     "iPad Pro 12.9 inch inch 5th Gen USA (WiFi+Cellular)"
     case iPadPro129Gen5CellGlobal =     "iPad Pro 12.9 inch inch 5th Gen Global (WiFi+Cellular)"
     case iPadPro129Gen5CellChina  =     "iPad Pro 12.9 inch inch 5th Gen China (WiFi+Cellular)"
+    case iPadPro129Gen6           =     "iPad Pro 12.9 inch 6th Gen"
 
     // MARK: - WATCH
     case watch38                  =     "Apple Watch 38mm case"
@@ -162,6 +164,11 @@ public enum DeviceModelList: String {
     case watch840Cell             =     "Apple Watch Series 8 40mm case (GPS+Cellular)"
     case watch844Cell             =     "Apple Watch Series 8 44mm case (GPS+Cellular)"
     case watchUltra               =     "Apple Watch Ultra"
+    case watch941                 =     "Apple Watch Series 9 41mm case (GPS)"
+    case watch945                 =     "Apple Watch Series 9 45mm case (GPS)"
+    case watch941Cell             =     "Apple Watch Series 9 41mm case (GPS+Cellular)"
+    case watch945Cell             =     "Apple Watch Series 9 45mm case (GPS+Cellular)"
+    case watchUltra2              =     "Apple Watch Ultra 2"
     
     case unrecognized             =     "UNRECOGNIZED DEVICE"
 }

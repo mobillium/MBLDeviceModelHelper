@@ -95,6 +95,8 @@ var type: DeviceModelList {
         "iPad11,7"     :    .iPadGen8Cell,
         "iPad12,1"     :    .iPadGen9,
         "iPad12,2"     :    .iPadGen9Cell,
+        "iPad13,18"    :    .iPadGen10,
+        "iPad13,19"    :    .iPadGen10,
 
         // MARK: - iPad Air
         "iPad4,1"      :    .iPadAir,
@@ -155,6 +157,10 @@ var type: DeviceModelList {
         "iPad13,9"     :    .iPadPro129Gen5CellUSA,
         "iPad13,10"    :    .iPadPro129Gen5CellGlobal,
         "iPad13,11"    :    .iPadPro129Gen5CellChina,
+        "iPad14,3"     :    .iPadPro11Gen4,
+        "iPad14,4"     :    .iPadPro11Gen4,
+        "iPad14,5"     :    .iPadPro129Gen6,
+        "iPad14,6"     :    .iPadPro129Gen6,
 
         // MARK: - Watchs
         "Watch1,1"     :    .watch38,
@@ -196,6 +202,11 @@ var type: DeviceModelList {
         "Watch6,16"    :    .watch840Cell,
         "Watch6,17"    :    .watch844Cell,
         "Watch6,18"    :    .watchUltra,
+        "Watch7,1"     :    .watch941,
+        "Watch7,2"     :    .watch945,
+        "Watch7,3"     :    .watch941Cell,
+        "Watch7,4"     :    .watch945Cell,
+        "Watch7,5"     :    .watchUltra2,
 
         // MARK: - iPod
         "iPod1,1"      :    .iPod1,
