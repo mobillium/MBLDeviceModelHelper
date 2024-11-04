@@ -54,6 +54,10 @@ public enum DeviceModelList: String {
     case iPhone15Plus             =     "iPhone 15 Plus"
     case iPhone15Pro              =     "iPhone 15 Pro"
     case iPhone15ProMax           =     "iPhone 15 Pro Max"
+    case iPhone16                 =     "iPhone 16"
+    case iPhone16Plus             =     "iPhone 16 Plus"
+    case iPhone16Pro              =     "iPhone 16 Pro"
+    case iPhone16ProMax           =     "iPhone 16 Pro Max"
 
     //MARK: - iPod
     case iPod1                    =     "1st Gen iPod"
