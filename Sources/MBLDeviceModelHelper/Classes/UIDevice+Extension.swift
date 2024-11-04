@@ -75,6 +75,11 @@ var type: DeviceModelList {
         "iPhone15,5"   :    .iPhone15Plus,
         "iPhone16,1"   :    .iPhone15Pro,
         "iPhone16,2"   :    .iPhone15ProMax,
+        "iPhone17,1"   :    .iPhone16Pro,
+        "iPhone17,2"   :    .iPhone16ProMax,
+        "iPhone17,3"   :    .iPhone16,
+        "iPhone17,4"   :    .iPhone16Plus,
+
 
         // MARK: - iPad
         "iPad1,1"      :    .iPad,
