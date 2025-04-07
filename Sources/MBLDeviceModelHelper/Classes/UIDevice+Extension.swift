@@ -227,6 +227,6 @@ var type: DeviceModelList {
         }
         return model
     }
-    return DeviceModelList.unrecognized
+    return .unrecognized(modelCode)
   }
 }
