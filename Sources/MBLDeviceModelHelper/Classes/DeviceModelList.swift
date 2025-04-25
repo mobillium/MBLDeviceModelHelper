@@ -59,6 +59,7 @@ public enum DeviceModelList: Equatable {
     case iPhone16Plus
     case iPhone16Pro
     case iPhone16ProMax
+    case iPhone16e
 
     // MARK: - iPod
     case iPod1
@@ -397,7 +398,8 @@ public enum DeviceModelList: Equatable {
         case .iPhone16Plus: return "iPhone 16 Plus"
         case .iPhone16Pro: return "iPhone 16 Pro"
         case .iPhone16ProMax: return "iPhone 16 Pro Max"
-            
+        case .iPhone16e: return "iPhone 16e"
+
         // iPod
         case .iPod1: return "1st Gen iPod"
         case .iPod2: return "2nd Gen iPod"
