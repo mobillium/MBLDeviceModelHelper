@@ -84,7 +84,11 @@ var type: DeviceModelList {
         "iPhone18,1"   :    .iPhone17Pro,
         "iPhone18,2"   :    .iPhone17ProMax,
         "iPhone18,4"   :    .iPhone17Air,
-
+        "iPhone18,5"   :    .iPhone17e,
+        "iPhone19,2"   :    .iPhone18Pro,
+        "iPhone19,3"   :    .iPhone18ProMaxUsa,
+        "iPhone19,7"   :    .iPhone18ProMax,
+        "iPhone19,4"   :    .iPhoneDuo,
 
         // MARK: - iPad
         "iPad1,1"      :    .iPad,
